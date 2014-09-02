@@ -1,0 +1,75 @@
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\DESKTOP-SERVICES.exe.config
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\DESKTOP-SERVICES.csprojResolveAssemblyReference.cache
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\Login.baml
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\MainWindow.baml
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\Login.g.cs
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\App.g.cs
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\DESKTOP-SERVICES_MarkupCompile.cache
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\DESKTOP-SERVICES.g.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\DESKTOP_SERVICES.Properties.Resources.resources
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\DESKTOP-SERVICES.csproj.GenerateResource.Cache
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\DESKTOP-SERVICES.exe
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\DESKTOP-SERVICES.pdb
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\EntityFramework.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.GridView.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.Input.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Data.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\EntityFramework.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.GridView.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.Input.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Data.xml
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\DESKTOP-SERVICES.exe
+C:\Users\Utilisateur\Documents\Visual Studio 2013\Projects\DESKTOP-SERVICES\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\DESKTOP-SERVICES.pdb
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\DESKTOP-SERVICES.exe.config
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\DESKTOP-SERVICES.exe
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\DESKTOP-SERVICES.pdb
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\DESKTOP-SERVICES.exe
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\DESKTOP-SERVICES.pdb
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\EntityFramework.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.GridView.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.Input.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Data.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\EntityFramework.xml
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.xml
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.GridView.xml
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.Input.xml
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Data.xml
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\Login.baml
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\MainWindow.baml
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\Login.g.cs
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\App.g.cs
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\DESKTOP-SERVICES_MarkupCompile.cache
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\DESKTOP-SERVICES.g.resources
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\DESKTOP_SERVICES.Properties.Resources.resources
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\DESKTOP-SERVICES.csproj.GenerateResource.Cache
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\Controls\DossierTechnique.baml
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\Controls\ListeAffectations.baml
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\Controls\DossierTechnique.g.cs
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\obj\x86\Debug\Controls\ListeAffectations.g.cs
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.Data.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.Navigation.dll
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.Data.xml
+C:\Users\Développeur\Desktop\DESKTOP-SERVICES\DESKTOP-SERVICES\bin\Debug\Telerik.Windows.Controls.Navigation.xml

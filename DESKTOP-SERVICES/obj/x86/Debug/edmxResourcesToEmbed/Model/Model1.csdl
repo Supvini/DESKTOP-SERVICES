@@ -1,0 +1,975 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SERVICES20Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SERVICES20Entities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="App_menu" EntityType="SERVICES20Model.App_menu" />
+    <EntitySet Name="App_menuDroits" EntityType="SERVICES20Model.App_menuDroits" />
+    <EntitySet Name="App_menuPage" EntityType="SERVICES20Model.App_menuPage" />
+    <EntitySet Name="Client" EntityType="SERVICES20Model.Client" />
+    <EntitySet Name="Client_acces" EntityType="SERVICES20Model.Client_acces" />
+    <EntitySet Name="Client_contact" EntityType="SERVICES20Model.Client_contact" />
+    <EntitySet Name="Client_dossierCommercial" EntityType="SERVICES20Model.Client_dossierCommercial" />
+    <EntitySet Name="Client_general" EntityType="SERVICES20Model.Client_general" />
+    <EntitySet Name="Client_gestionnaireCompte" EntityType="SERVICES20Model.Client_gestionnaireCompte" />
+    <EntitySet Name="Client_imprimante" EntityType="SERVICES20Model.Client_imprimante" />
+    <EntitySet Name="Client_motDePasse" EntityType="SERVICES20Model.Client_motDePasse" />
+    <EntitySet Name="Client_partage" EntityType="SERVICES20Model.Client_partage" />
+    <EntitySet Name="Client_poste" EntityType="SERVICES20Model.Client_poste" />
+    <EntitySet Name="Client_reseau" EntityType="SERVICES20Model.Client_reseau" />
+    <EntitySet Name="Client_reseauRouteurModem" EntityType="SERVICES20Model.Client_reseauRouteurModem" />
+    <EntitySet Name="Client_sauvegardeMateriel" EntityType="SERVICES20Model.Client_sauvegardeMateriel" />
+    <EntitySet Name="Client_serveur" EntityType="SERVICES20Model.Client_serveur" />
+    <EntitySet Name="Client_serveurPartition" EntityType="SERVICES20Model.Client_serveurPartition" />
+    <EntitySet Name="Client_type" EntityType="SERVICES20Model.Client_type" />
+    <EntitySet Name="Conges_conges" EntityType="SERVICES20Model.Conges_conges" />
+    <EntitySet Name="Conges_mail" EntityType="SERVICES20Model.Conges_mail" />
+    <EntitySet Name="Conges_typeConges" EntityType="SERVICES20Model.Conges_typeConges" />
+    <EntitySet Name="Connaissance_article" EntityType="SERVICES20Model.Connaissance_article" />
+    <EntitySet Name="Connaissance_categorie" EntityType="SERVICES20Model.Connaissance_categorie" />
+    <EntitySet Name="Deplacement" EntityType="SERVICES20Model.Deplacement" />
+    <EntitySet Name="Fichier" EntityType="SERVICES20Model.Fichier" />
+    <EntitySet Name="Fichier_categorie" EntityType="SERVICES20Model.Fichier_categorie" />
+    <EntitySet Name="Fichier_type" EntityType="SERVICES20Model.Fichier_type" />
+    <EntitySet Name="FileTest" EntityType="SERVICES20Model.FileTest" />
+    <EntitySet Name="Frais_divers" EntityType="SERVICES20Model.Frais_divers" />
+    <EntitySet Name="GestionTemps" EntityType="SERVICES20Model.GestionTemps" />
+    <EntitySet Name="Historique_affectationClient" EntityType="SERVICES20Model.Historique_affectationClient" />
+    <EntitySet Name="Historique_typeClient" EntityType="SERVICES20Model.Historique_typeClient" />
+    <EntitySet Name="Historique_utilisateurFonction" EntityType="SERVICES20Model.Historique_utilisateurFonction" />
+    <EntitySet Name="Hotline_incident" EntityType="SERVICES20Model.Hotline_incident" />
+    <EntitySet Name="Hotline_suivi" EntityType="SERVICES20Model.Hotline_suivi" />
+    <EntitySet Name="kilometrage" EntityType="SERVICES20Model.kilometrage" />
+    <EntitySet Name="Mail_associationClientUtilisateur" EntityType="SERVICES20Model.Mail_associationClientUtilisateur" />
+    <EntitySet Name="Mail_hotline" EntityType="SERVICES20Model.Mail_hotline" />
+    <EntitySet Name="Mail_parametresUtilisateur" EntityType="SERVICES20Model.Mail_parametresUtilisateur" />
+    <EntitySet Name="Mail_planification" EntityType="SERVICES20Model.Mail_planification" />
+    <EntitySet Name="NotesDeFrais_mois" EntityType="SERVICES20Model.NotesDeFrais_mois" />
+    <EntitySet Name="Planning_competence" EntityType="SERVICES20Model.Planning_competence" />
+    <EntitySet Name="Planning_modeOperatoire" EntityType="SERVICES20Model.Planning_modeOperatoire" />
+    <EntitySet Name="Planning_planification" EntityType="SERVICES20Model.Planning_planification" />
+    <EntitySet Name="Planning_planificationParticipants" EntityType="SERVICES20Model.Planning_planificationParticipants" />
+    <EntitySet Name="Planning_tache" EntityType="SERVICES20Model.Planning_tache" />
+    <EntitySet Name="Planning_typeTache" EntityType="SERVICES20Model.Planning_typeTache" />
+    <EntitySet Name="SAV" EntityType="SERVICES20Model.SAV" />
+    <EntitySet Name="ServicesApp" EntityType="SERVICES20Model.ServicesApp" />
+    <EntitySet Name="ServicesAppUtilisateurOnglet" EntityType="SERVICES20Model.ServicesAppUtilisateurOnglet" />
+    <EntitySet Name="TEMP_COUPE_DROIT" EntityType="SERVICES20Model.TEMP_COUPE_DROIT" />
+    <EntitySet Name="TEMP_COUPE_MATCH" EntityType="SERVICES20Model.TEMP_COUPE_MATCH" />
+    <EntitySet Name="TEMP_COUPE_USERVOTE" EntityType="SERVICES20Model.TEMP_COUPE_USERVOTE" />
+    <EntitySet Name="Utilisateur" EntityType="SERVICES20Model.Utilisateur" />
+    <EntitySet Name="Utilisateur_fonction" EntityType="SERVICES20Model.Utilisateur_fonction" />
+    <EntitySet Name="Utilisateur_profil" EntityType="SERVICES20Model.Utilisateur_profil" />
+    <EntitySet Name="Vue_assistantTechnique" EntityType="SERVICES20Model.Vue_assistantTechnique" />
+    <EntitySet Name="Vue_Association_referent_client" EntityType="SERVICES20Model.Vue_Association_referent_client" />
+    <EntitySet Name="Vue_commercial" EntityType="SERVICES20Model.Vue_commercial" />
+    <EntitySet Name="Vue_HotlineIncident" EntityType="SERVICES20Model.Vue_HotlineIncident" />
+    <EntitySet Name="Vue_referentTechnique" EntityType="SERVICES20Model.Vue_referentTechnique" />
+    <EntitySet Name="Vue_SAV" EntityType="SERVICES20Model.Vue_SAV" />
+    <EntitySet Name="Vue_WikiCategorieArticles" EntityType="SERVICES20Model.Vue_WikiCategorieArticles" />
+    <EntitySet Name="VueSpecifiqueIRD" EntityType="SERVICES20Model.VueSpecifiqueIRD" />
+    <AssociationSet Name="FK_DeplacementKilometrage" Association="SERVICES20Model.FK_DeplacementKilometrage">
+      <End Role="kilometrage" EntitySet="kilometrage" />
+      <End Role="Deplacement" EntitySet="Deplacement" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NotesDeFrais_moisDeplacement" Association="SERVICES20Model.FK_NotesDeFrais_moisDeplacement">
+      <End Role="NotesDeFrais_mois" EntitySet="NotesDeFrais_mois" />
+      <End Role="Deplacement" EntitySet="Deplacement" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Frais_diversmois" Association="SERVICES20Model.FK_Frais_diversmois">
+      <End Role="NotesDeFrais_mois" EntitySet="NotesDeFrais_mois" />
+      <End Role="Frais_divers" EntitySet="Frais_divers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NotesDeFrais_mois_Utilisateur" Association="SERVICES20Model.FK_NotesDeFrais_mois_Utilisateur">
+      <End Role="Utilisateur" EntitySet="Utilisateur" />
+      <End Role="NotesDeFrais_mois" EntitySet="NotesDeFrais_mois" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="App_menu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Label" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Position" Type="Int32" />
+  </EntityType>
+  <EntityType Name="App_menuDroits">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Fk_profilID" Type="Int32" Nullable="false" />
+    <Property Name="Fk_menuPageID" Type="Int32" />
+    <Property Name="Droits" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="App_menuPage">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Label" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Dossier" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Lien" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Type" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Position" Type="Int32" />
+    <Property Name="Fk_menuID" Type="Int32" />
+    <Property Name="ReadOnly" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Visible" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="ParentID" Type="Int32" />
+    <Property Name="haveChildren" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_typeClientID" Type="Int32" />
+    <Property Name="RaisonSociale" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Logo" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DateDeCreation" Type="DateTime" Precision="3" />
+    <Property Name="Folder" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Actif" Type="Int32" />
+    <Property Name="EntiteJuridique" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Client_acces">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_ClientID" Type="Int32" />
+    <Property Name="FK_FonctionID" Type="Int32" />
+    <Property Name="FK_UtilisateurID" Type="Int32" />
+    <Property Name="Type" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DroitsDE" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DroitsCoffre" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DroitsAdmin" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Client_contact">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" Nullable="false" />
+    <Property Name="NomComplet" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Mail" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Fonction" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Tel" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="GSM" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Client_dossierCommercial">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="CodeGestcom" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="MontantContrat" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Periodicite" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DateEcheance" Type="DateTime" Precision="3" />
+    <Property Name="DateEffet" Type="DateTime" Precision="3" />
+    <Property Name="CoteRegieN1" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="CoteRegieN2" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Ticket" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Contrat" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Regie" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="VisitePreventive" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="SupportVeilleTech" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="PMDSurSite" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Supervision" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DE" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Audit" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Rapport" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ServeurDePret" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="CarnetDeTicket" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Client_general">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="Regularisation" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Activite" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Tel" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Adresse" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ImagePerimetreGeneral" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ImageContrat" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ContactNomComplet" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ContactMail" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ContactFonction" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ContactTel" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ContactGSM" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="PMD" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="FAI" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="FAIInfo" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="FAIMail" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="FAIMailInfo" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Commentaire" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Domaine" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="CompteAdmin" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="MotDePasseAdmin" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DateModifPerimetreGeneral" Type="DateTime" Precision="3" />
+    <Property Name="DateModifContrat" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Client_gestionnaireCompte">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" Nullable="false" />
+    <Property Name="FK_referentTechniqueID" Type="Int32" />
+    <Property Name="FK_assistantTechniqueID" Type="Int32" />
+    <Property Name="FK_referentCommercialID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Client_imprimante">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="Nom" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="IP" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Client_motDePasse">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_ClientID" Type="Int32" />
+    <Property Name="Intitule" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Identifiant" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="MotDePasse" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="AccesHotline" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Commentaire" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Client_partage">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="LecteurReseau" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="LienPartage" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Client_poste">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="Nom" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Prenom" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Service" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="CompteAD" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="NomPoste" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="IP" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ModelePoste" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="CPU" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="RAM" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="SN" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="VersionOffice" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="LogicielMetier" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Client_reseau">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="PlageIP" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Gateway" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DNS" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ScopeDHCP" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ExclusionDHCP" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="TypeSwitch" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="RouteurModem" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ModemBridge" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Commentaire" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Client_reseauRouteurModem">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="RouteurModem" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="CompteAdminRouteurModem" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="MotDePasseRouteurModem" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Client_sauvegardeMateriel">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="IP" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Login" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="MotDePasse" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ModeleNAS" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Client_serveur">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="TypeServeur" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="NomNetbios" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="PN" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="SN" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="AdresseIP" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Processeur" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="RAM" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DD" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="VersionWindows" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="CleWindows" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ServicePack" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Role" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="TypeSauvegarde" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Client_serveurPartition">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_Client_serveurID" Type="Int32" />
+    <Property Name="Lecteur" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Volumetrie" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Client_type">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Nom" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Nom" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Conges_conges">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_utilisateurID" Type="Int32" />
+    <Property Name="dateDeCreation" Type="DateTime" Precision="3" />
+    <Property Name="dateDebut" Type="DateTime" Precision="3" />
+    <Property Name="dateFin" Type="DateTime" Precision="3" />
+    <Property Name="FK_typeCongesID" Type="Int32" />
+    <Property Name="description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="statut" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Conges_mail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_userNomComplet" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DateDeCreation" Type="DateTime" Precision="3" />
+    <Property Name="DateDeDebut" Type="DateTime" Precision="3" />
+    <Property Name="DateDeFin" Type="DateTime" Precision="3" />
+    <Property Name="FK_typeCongesLabel" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Commentaire" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Statut" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Destinataire" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Conges_typeConges">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="label" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Connaissance_article">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_auteurID" Type="Int32" />
+    <Property Name="DateDeCreation" Type="DateTime" Precision="3" />
+    <Property Name="FK_categorieID" Type="Int32" />
+    <Property Name="Contenu" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DateDerniereMaj" Type="DateTime" Precision="3" />
+    <Property Name="FK_auteurDernierMajID" Type="Int32" />
+    <Property Name="Titre" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Connaissance_categorie">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Label" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Image" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Deplacement">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="societe" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="raison" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="periode" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="kilometrage_Id" Type="Int32" Nullable="false" />
+    <Property Name="NotesDeFrais_mois_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="kilometrage" Relationship="SERVICES20Model.FK_DeplacementKilometrage" FromRole="Deplacement" ToRole="kilometrage" />
+    <NavigationProperty Name="NotesDeFrais_mois" Relationship="SERVICES20Model.FK_NotesDeFrais_moisDeplacement" FromRole="Deplacement" ToRole="NotesDeFrais_mois" />
+  </EntityType>
+  <EntityType Name="Fichier">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_ajouteParID" Type="Int32" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="Nom" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Lien" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DateAjout" Type="DateTime" Precision="3" />
+    <Property Name="EnvoyeClient" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Categorie" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="SousCategorie" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Fichier_categorie">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Fichier_typeID" Type="Int32" />
+    <Property Name="Position" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Fichier_type">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="FileTest">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Data" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Nom" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Frais_divers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="designation" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="montant" Type="Double" Nullable="false" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="NotesDeFrais_mois_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="NotesDeFrais_mois" Relationship="SERVICES20Model.FK_Frais_diversmois" FromRole="Frais_divers" ToRole="NotesDeFrais_mois" />
+  </EntityType>
+  <EntityType Name="GestionTemps">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Fk_tacheID" Type="Int32" />
+    <Property Name="Fk_competenceID" Type="Int32" />
+    <Property Name="Fk_modeOperatoireID" Type="Int32" />
+    <Property Name="Fk_utilisateurID" Type="Int32" />
+    <Property Name="Fk_clientID" Type="Int32" />
+    <Property Name="DateDuJour" Type="DateTime" Precision="3" />
+    <Property Name="Titre" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ComplexiteTache" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Temps" Type="Double" />
+    <Property Name="Facturable" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="RapportIntervention" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Historique_affectationClient">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="FK_referentTechniqueID" Type="Int32" />
+    <Property Name="FK_assistantTechniqueID" Type="Int32" />
+    <Property Name="FK_referentCommercialID" Type="Int32" />
+    <Property Name="Annee" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Historique_typeClient">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_typeClientID" Type="Int32" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="DateDebut" Type="DateTime" Precision="3" />
+    <Property Name="DateFin" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Historique_utilisateurFonction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_utilisateurID" Type="Int32" />
+    <Property Name="FK_fonctionID" Type="Int32" />
+    <Property Name="TauxHoraire" Type="Double" />
+    <Property Name="Annee" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Hotline_incident">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="TypeDemande" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Contact" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Mail" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Tel" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DateDeCreation" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="FK_creePar" Type="Int32" />
+    <Property Name="Etat" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="FK_cloturePar" Type="Int32" />
+    <Property Name="DateDeCloture" Type="DateTime" Precision="3" />
+    <Property Name="DateProbleme" Type="DateTime" Precision="3" />
+    <Property Name="FK_prisEnChargePar" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Hotline_suivi">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_hotlineIncidentID" Type="Int32" />
+    <Property Name="FK_auteur" Type="Int32" />
+    <Property Name="DateDeCreation" Type="DateTime" Precision="3" />
+    <Property Name="Contenu" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="kilometrage">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ville" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="kilometre" Type="Int32" />
+    <NavigationProperty Name="Deplacement" Relationship="SERVICES20Model.FK_DeplacementKilometrage" FromRole="kilometrage" ToRole="Deplacement" />
+  </EntityType>
+  <EntityType Name="Mail_associationClientUtilisateur">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="FK_utilisateurID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Mail_hotline">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_hotlineIncidentID" Type="Int32" />
+    <Property Name="FK_auteurID" Type="Int32" />
+    <Property Name="DestinataireMail" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="BoolInclureSuivi" Type="String" MaxLength="5" Unicode="false" FixedLength="false" />
+    <Property Name="Commentaire" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="TypeMail" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Mail_parametresUtilisateur">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_utilisateurID" Type="Int32" />
+    <Property Name="rapportQuotidien" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Mail_planification">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_PlanificationID" Type="Int32" />
+    <Property Name="Client" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Edition_Client" Type="Byte" />
+    <Property Name="ModeOperatoire" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Edition_ModeOperatoire" Type="Byte" />
+    <Property Name="Competence" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Edition_Competence" Type="Byte" />
+    <Property Name="Titre" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Edition_Titre" Type="Byte" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Edition_Description" Type="Byte" />
+    <Property Name="Createur" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Editeur" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DateDeDebut" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Edition_DateDeDebut" Type="Byte" />
+    <Property Name="DateDeFin" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Edition_DateDeFin" Type="Byte" />
+    <Property Name="Priorite" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Edition_Priorite" Type="Byte" />
+    <Property Name="Participants" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Edition_Participants" Type="Byte" />
+    <Property Name="TypeMail" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="OldDestinataire" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="NewDestinataire" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="NotesDeFrais_mois">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Utilisateur_Id" Type="Int32" Nullable="false" />
+    <Property Name="labelMoisAnne" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="validation_chefService" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="validation_utilisateur" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Deplacement" Relationship="SERVICES20Model.FK_NotesDeFrais_moisDeplacement" FromRole="NotesDeFrais_mois" ToRole="Deplacement" />
+    <NavigationProperty Name="Frais_divers" Relationship="SERVICES20Model.FK_Frais_diversmois" FromRole="NotesDeFrais_mois" ToRole="Frais_divers" />
+    <NavigationProperty Name="Utilisateur" Relationship="SERVICES20Model.FK_NotesDeFrais_mois_Utilisateur" FromRole="NotesDeFrais_mois" ToRole="Utilisateur" />
+  </EntityType>
+  <EntityType Name="Planning_competence">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Nom" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="InterneOuExterne" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Planning_modeOperatoire">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Nom" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="InterneExterne" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Planning_planification">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Fk_tacheID" Type="Int32" />
+    <Property Name="Fk_clientID" Type="Int32" />
+    <Property Name="Fk_modeOperatoireID" Type="Int32" />
+    <Property Name="Fk_competenceID" Type="Int32" />
+    <Property Name="Titre" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DateDeCreation" Type="DateTime" Precision="3" />
+    <Property Name="DateDeModification" Type="DateTime" Precision="3" />
+    <Property Name="Fk_creePar" Type="Int32" />
+    <Property Name="Fk_modifiePar" Type="Int32" />
+    <Property Name="DateDeDebut" Type="DateTime" Precision="3" />
+    <Property Name="DateDeFin" Type="DateTime" Precision="3" />
+    <Property Name="JourneeComplete" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Priorite" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Facturable" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Verouille" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="FK_verouillePar" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Planning_planificationParticipants">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Fk_utilisateurID" Type="Int32" Nullable="false" />
+    <Property Name="Fk_planificationID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Planning_tache">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Fk_typeTacheID" Type="Int32" />
+    <Property Name="Fk_clientID" Type="Int32" />
+    <Property Name="Titre" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Fk_creePar" Type="Int32" />
+    <Property Name="Fk_affecteA" Type="Int32" />
+    <Property Name="Etat" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DateDeCreation" Type="DateTime" Precision="3" />
+    <Property Name="DateDeCloture" Type="DateTime" Precision="3" />
+    <Property Name="Fk_tacheParente" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Planning_typeTache">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="SAV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="FK_ajouteParID" Type="Int32" />
+    <Property Name="Contact" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="TypeMateriel" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Modele" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="NumSerie" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="FK_intervenantID" Type="Int32" />
+    <Property Name="DateEntreeSAV" Type="DateTime" Precision="3" />
+    <Property Name="Panne" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Remarque" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Statut" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Garantie" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ReferenceDossierSAV" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="ServicesApp">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Fk_utilisateurID" Type="Int32" />
+    <Property Name="Theme" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="ServicesAppUtilisateurOnglet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_utilisateurID" Type="Int32" />
+    <Property Name="FK_menuPageID" Type="Int32" />
+    <Property Name="Position" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TEMP_COUPE_DROIT">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_UserID" Type="Int32" />
+    <Property Name="PronoVainqueur" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TEMP_COUPE_MATCH">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Eq1Label" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Eq1But" Type="Int32" />
+    <Property Name="Eq2Label" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Eq2But" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="Groupe" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Etat" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TEMP_COUPE_USERVOTE">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_UserID" Type="Int32" />
+    <Property Name="FK_MatchID" Type="Int32" />
+    <Property Name="Eq1But" Type="Int32" />
+    <Property Name="Eq2But" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Utilisateur">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Fk_fonctionID" Type="Int32" />
+    <Property Name="Fk_profilID" Type="Int32" />
+    <Property Name="Identifiant" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="MotDePasse" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Actif" Type="Int32" Nullable="false" />
+    <Property Name="SQL_ID" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DateDeCreation" Type="DateTime" Precision="3" />
+    <Property Name="DateDerniereConnexion" Type="DateTime" Precision="3" />
+    <Property Name="NomComplet" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Initiale" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Image" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Mail" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="GSM" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="TelephoneInterne" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="EntiteJuridique" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="DOM" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="NotesDeFrais_mois" Relationship="SERVICES20Model.FK_NotesDeFrais_mois_Utilisateur" FromRole="Utilisateur" ToRole="NotesDeFrais_mois" />
+  </EntityType>
+  <EntityType Name="Utilisateur_fonction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Position" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Utilisateur_profil">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Nom" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Vue_assistantTechnique">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="NomComplet" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Initiale" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Image" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DOM" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Vue_Association_referent_client">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="ClientID" />
+      <PropertyRef Name="TypeClient" />
+      <PropertyRef Name="FK_typeClientID" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="ClientID" Type="Int32" Nullable="false" />
+    <Property Name="RaisonSociale" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="TypeClient" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="FK_typeClientID" Type="Int32" Nullable="false" />
+    <Property Name="Référent_technique_ID" Type="Int32" />
+    <Property Name="Référent_technique" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Assistant_technique_ID" Type="Int32" />
+    <Property Name="Assistant_technique" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Référent_commercial_ID" Type="Int32" />
+    <Property Name="Référent_commercial" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="EntiteJuridique" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="FK_referentCommercialID" Type="Int32" />
+    <Property Name="FK_assistantTechniqueID" Type="Int32" />
+    <Property Name="FK_referentTechniqueID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Vue_commercial">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="NomComplet" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Initiale" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Image" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DOM" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Vue_HotlineIncident">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="clientRaisonSociale" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="TypeDemande" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Contact" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Mail" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Tel" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DateDeCreation" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="FK_creePar" Type="Int32" />
+    <Property Name="CreePar" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Etat" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="FK_cloturePar" Type="Int32" />
+    <Property Name="NomComplet" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DateDeCloture" Type="DateTime" Precision="3" />
+    <Property Name="DateProbleme" Type="DateTime" Precision="3" />
+    <Property Name="FK_prisEnChargePar" Type="Int32" />
+    <Property Name="Pris_en_charge_par" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Vue_referentTechnique">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="NomComplet" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Initiale" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Image" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DOM" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Vue_SAV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="FK_clientID" Type="Int32" />
+    <Property Name="Client" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FK_ajouteParID" Type="Int32" />
+    <Property Name="AjouteParInitiale" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Contact" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="TypeMateriel" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Modele" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="NumSerie" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DateEntreeSAV" Type="DateTime" Precision="3" />
+    <Property Name="FK_intervenantID" Type="Int32" />
+    <Property Name="IntervenantInitiale" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Panne" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Remarque" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Statut" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Garantie" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ReferenceDossierSAV" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Vue_WikiCategorieArticles">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="AuteurID" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Titre" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="AuteurID" Type="Int32" Nullable="false" />
+    <Property Name="Initiale" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="DateDeCreation" Type="DateTime" Precision="3" />
+    <Property Name="FK_categorieID" Type="Int32" />
+    <Property Name="categorie" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="VueSpecifiqueIRD">
+    <Key>
+      <PropertyRef Name="ID_Inter" />
+      <PropertyRef Name="Vide" />
+      <PropertyRef Name="Site" />
+    </Key>
+    <Property Name="ID_Inter" Type="Int32" Nullable="false" />
+    <Property Name="Lieu" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DateDuJour" Type="DateTime" Precision="3" />
+    <Property Name="Vide" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="NomComplet" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="TypeInter" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Temps" Type="Double" />
+    <Property Name="MOIS" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="Site" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="Annee" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_DeplacementKilometrage">
+    <End Role="kilometrage" Type="SERVICES20Model.kilometrage" Multiplicity="1" />
+    <End Role="Deplacement" Type="SERVICES20Model.Deplacement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kilometrage">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Deplacement">
+        <PropertyRef Name="kilometrage_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NotesDeFrais_moisDeplacement">
+    <End Role="NotesDeFrais_mois" Type="SERVICES20Model.NotesDeFrais_mois" Multiplicity="1" />
+    <End Role="Deplacement" Type="SERVICES20Model.Deplacement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NotesDeFrais_mois">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Deplacement">
+        <PropertyRef Name="NotesDeFrais_mois_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Frais_diversmois">
+    <End Role="NotesDeFrais_mois" Type="SERVICES20Model.NotesDeFrais_mois" Multiplicity="1" />
+    <End Role="Frais_divers" Type="SERVICES20Model.Frais_divers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NotesDeFrais_mois">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Frais_divers">
+        <PropertyRef Name="NotesDeFrais_mois_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NotesDeFrais_mois_Utilisateur">
+    <End Role="Utilisateur" Type="SERVICES20Model.Utilisateur" Multiplicity="1" />
+    <End Role="NotesDeFrais_mois" Type="SERVICES20Model.NotesDeFrais_mois" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Utilisateur">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="NotesDeFrais_mois">
+        <PropertyRef Name="Utilisateur_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

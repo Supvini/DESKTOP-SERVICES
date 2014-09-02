@@ -1,0 +1,51 @@
+﻿<Window x:Class="DESKTOP_SERVICES.MainWindow"
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+                Title="MainWindow" Height="700" Width="1200">
+    <Grid>
+        <telerik:RadMenu HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="30" Background="#FF204E81" telerik:StyleManager.Theme="Windows8">
+            <AccessText Height="20" Width="86.364" Text="SERVICES" FontFamily="Segoe UI Semibold" FontSize="18.667" FontWeight="Bold" Foreground="White" Margin="0,-6,0,0"/>
+            <telerik:RadMenuItem Header="Dossier client" Margin="80,0,0,0" Height="30" VerticalAlignment="Top" Foreground="White" FontSize="13.333" FontFamily="Segoe WP Light">
+                <telerik:RadMenuItem x:Name="___RadMenuItem___Dossier_technique_" Header="Dossier technique" Background="#D7204E81" Click="DTechnique_Click"/>
+                <telerik:RadMenuItem x:Name="___RadMenuItem___Suivi_des_Dossiers_" Header="Suivi des dossiers" BorderBrush="White" Background="#D7204E81">
+                    <telerik:RadMenuItem x:Name="___RadMenuItem___Liste_des_affectations_" Header="Liste des affectations" Background="#D7204E81" Click="LAffections_Click"/>
+                    <telerik:RadMenuItem x:Name="___RadMenuItem___Liste_des_informations_utiles_" Header="Liste des informations liées" Background="#D7204E81" Click="LInformationsLies_Click"/>
+                    <telerik:RadMenuItem x:Name="___RadMenuItem___Liste_des_Contacts_clients_" Header="Liste des contacts clients" Background="#D7204E81" Click="LContactsClients_Click"/>
+                    <telerik:RadMenuItem x:Name="___RadMenuItem___Suivi_des_contrats_et_des_engagements_liés_" Header="Suivi des contrats et des engagements" Background="#D7204E81" Click="SContratsEngagements_Click"/>
+                </telerik:RadMenuItem>
+            </telerik:RadMenuItem>
+            <telerik:RadMenuItem Header="Gestion du service" Margin="20,0,0,0" RenderTransformOrigin="0.545,0.523" Foreground="White" FontSize="13.333" FontFamily="Segoe WP Light" Height="30">
+                <telerik:RadMenuItem x:Name="___RadMenuItem___Liste_des_profils_utilisateurs_" Header="Liste et profil des utilisateurs" Background="#D7204E81" Click="LProfilsUtilisateurs_Click"/>
+                <telerik:RadMenuItem x:Name="___RadMenuItem___Planning_des_interventions_" Header="Planning des interventions" Background="#D7204E81">
+                    <telerik:RadMenuItem Header="Planning Services (Réunion)" Background="#D7204E81" Click="PServicesReu_Click"/>
+                    <telerik:RadMenuItem Header="Planning Services (Mayotte)" Background="#D7204E81" Click="PServicesMay_Click"/>
+                </telerik:RadMenuItem>
+                <telerik:RadMenuItem x:Name="___RadMenuItem___Gestion_des_incidents_" Header="Gestion des incidents" Background="#D7204E81">
+                    <telerik:RadMenuItem Header="Fiche d'ouverture" Background="#D7204E81" Click="FOuverture_Click"/>
+                    <telerik:RadMenuItem Header="Suivi des incidents" Background="#D7204E81" Click="SIncidents_Click"/>
+                </telerik:RadMenuItem>
+                <telerik:RadMenuItem x:Name="___RadMenuItem____S_A_V_" Header="S.A.V" Background="#D7204E81" >
+                    <telerik:RadMenuItem Header="Fiche d'ouverture SAV" Background="#D7204E81" Click="FOuvertureSAV_Click"/>
+                    <telerik:RadMenuItem Header="Suivi SAV" Background="#D7204E81" Click="SuiviSAV_Click"/>
+                </telerik:RadMenuItem>
+            </telerik:RadMenuItem>
+            <telerik:RadMenuItem Header="Espace privé" Margin="20,0,0,0" Foreground="White" FontSize="13.333" FontFamily="Segoe WP Light" Height="30">
+                <telerik:RadMenuItem Header="Mon planning prévisionnel" Background="#D7204E81" Click="PlanningPrevision_Click"/>
+                <telerik:RadMenuItem Header="Mes fiches de temps" Background="#D7204E81" Click="FichesTemps_Click"/>
+                <telerik:RadMenuItem Header="Mes alertes mails" Background="#D7204E81" Click="AlertMails_Click"/>
+                <telerik:RadMenuItem Header="Mon suivi d'incident" Background="#D7204E81" Click="MonSuiviIncident_Click"/>
+            </telerik:RadMenuItem>
+            <telerik:RadMenuItem Header="Base de connaissance" Margin="20,0,0,0" Foreground="White" FontSize="13.333" FontFamily="Segoe WP Light" Height="30">
+                <telerik:RadMenuItem x:Name="___RadMenuItem___Wiki___Index_des_catégories_" Header="Wiki - Index des catégories" Background="#D7204E81" Click="IndexCategories_Click"/>
+                <telerik:RadMenuItem x:Name="___RadMenuItem___Sub_Ite_" Header="Wiki - Ajouter des articles" Background="#D7204E81" Click="AjouterArticle_Click"/>
+                <telerik:RadMenuItem Header="Wiki - Mes articles" Background="#D7204E81" Click="MesArticles_Click"/>
+            </telerik:RadMenuItem>
+        </telerik:RadMenu>
+
+
+        <telerik:RadTabControl x:Name="radTabControl"  telerik:StyleManager.Theme="Windows8" HorizontalAlignment="Stretch" Margin="0,35,0,0" VerticalAlignment="Stretch">
+
+        </telerik:RadTabControl>
+    </Grid>
+</Window>
